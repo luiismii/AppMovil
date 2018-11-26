@@ -1,0 +1,20 @@
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csprojAssemblyReference.cache
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csproj.CoreCompileInputs.cache
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfoInputs.cache
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfo.cs
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.deps.json
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
+C:\Users\LuiisMii Payan Silva\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.deps.json
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csproj.CoreCompileInputs.cache
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfoInputs.cache
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfo.cs
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csprojAssemblyReference.cache
