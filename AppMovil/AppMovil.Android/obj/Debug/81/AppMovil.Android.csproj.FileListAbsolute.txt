@@ -103,6 +103,8 @@ C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\and
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\bin\Debug\AppMovil.dll.mdb
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\linksrc\AppMovil.dll.mdb
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\LUISMY\source\repos\AppMovil\AppMovil\AppMovil.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

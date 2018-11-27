@@ -34,21 +34,20 @@ namespace AppMovil.View
         }
         private async void ListViewContent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Usuarios usr = new Usuarios();
+            
             double notauno = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
-            double notaDos = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
-            double notaTres = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
-            double NotaFinal = notauno + notaDos + notaTres / 3;
-
+            double notaDos = Convert.ToDouble(((Usuarios)e.Item).ce_segunda_nota);
+            double notaTres = Convert.ToDouble(((Usuarios)e.Item).ce_tercera_nota);
+            double NotaFinal = (notauno + notaDos + notaTres ) / 3;
             
 
             if (NotaFinal >= 3)
             {
-                await DisplayAlert("Notificacion", "Ganastes: " + ((Usuarios)e.Item).est_nombre +"=>"+ NotaFinal, "Ok");
+                await DisplayAlert("Notificacion", "Ganastes: " + ((Usuarios)e.Item).est_nombre +"   =>  "+ NotaFinal, "Ok");
             }
             if (NotaFinal < 3)
             {
-                await DisplayAlert("Notificacion", "Perdistes: " + ((Usuarios)e.Item).est_nombre + NotaFinal, "Ok");
+                await DisplayAlert("Notificacion", "Perdistes: " + ((Usuarios)e.Item).est_nombre + "   =>  " + NotaFinal, "Ok");
             }
         }
 
