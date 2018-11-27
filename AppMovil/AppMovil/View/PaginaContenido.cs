@@ -1,5 +1,6 @@
 ﻿using AppMovil.Modelos;
 using AppMovil.View.MyViewCells;
+using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 namespace AppMovil.View
@@ -29,22 +30,38 @@ namespace AppMovil.View
         }
         private void ListViewContent_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            ((ListView)sender).SelectedItem = null;
+              ((ListView)sender).SelectedItem = null;
         }
         private async void ListViewContent_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            await DisplayAlert("Notificacion", "Bienvenido: " + ((ClsLogin)e.Item).do_nombre, "Ok");
+            Usuarios usr = new Usuarios();
+            double notauno = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
+            double notaDos = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
+            double notaTres = Convert.ToDouble(((Usuarios)e.Item).ce_primera_nota);
+            double NotaFinal = notauno + notaDos + notaTres / 3;
+
+            
+
+            if (NotaFinal >= 3)
+            {
+                await DisplayAlert("Notificacion", "Ganastes: " + ((Usuarios)e.Item).est_nombre +"=>"+ NotaFinal, "Ok");
+            }
+            if (NotaFinal < 3)
+            {
+                await DisplayAlert("Notificacion", "Perdistes: " + ((Usuarios)e.Item).est_nombre + NotaFinal, "Ok");
+            }
         }
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
-            //await Task.Delay(1000);
+            await Task.Delay(1000);
             IServicios servicios = DependencyService.Get<IServicios>();
             ResponseDataUsers responseData = await servicios.Usuarios(_id);
-
             App.lstUsuarios = responseData.Data;
         }
+
+
+
     }
 }

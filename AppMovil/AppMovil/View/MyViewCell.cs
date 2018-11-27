@@ -12,29 +12,43 @@ namespace AppMovil.View.MyViewCells
             StackLayout ViewOrizontal = new StackLayout();
             ViewOrizontal.Padding = 10;
             
-            Label IdOwn = new Label
-            {
-                FontAttributes = FontAttributes.Bold,
-                TextColor = Color.Red
-            };
+            //Label IdOwn = new Label
+            //{
+            //    FontAttributes = FontAttributes.Bold,
+            //    TextColor = Color.Red
+            //};
             Label NombreOwn = new Label
             {
                 FontAttributes = FontAttributes.Bold,
                 TextColor = Color.Blue
             };
-            Label ApellidoOwn = new Label
+
+            Label SemestreOwn = new Label
+            {
+                FontAttributes = FontAttributes.Bold,
+                TextColor = Color.Red
+            };
+            Label NomOwn = new Label
+            {
+                FontAttributes = FontAttributes.Bold,
+                TextColor = Color.Red
+            };
+            Label JornadaOwn = new Label
             {
                 FontAttributes = FontAttributes.Bold,
                 TextColor = Color.Red
             };
 
-            IdOwn.SetBinding(Label.TextProperty, new Binding("est_id"));
             NombreOwn.SetBinding(Label.TextProperty, new Binding("est_nombre"));
-            ApellidoOwn.SetBinding(Label.TextProperty, new Binding("est_apellido"));
-            
-            ViewVertical.Children.Add(IdOwn);
+            SemestreOwn.SetBinding(Label.TextProperty, new Binding("ce_semestre"));
+            NomOwn.SetBinding(Label.TextProperty, new Binding("car_nombre"));
+            JornadaOwn.SetBinding(Label.TextProperty, new Binding("car_jornada"));
+
+
             ViewVertical.Children.Add(NombreOwn);
-            ViewVertical.Children.Add(ApellidoOwn);
+            ViewVertical.Children.Add(SemestreOwn);
+            ViewVertical.Children.Add(NomOwn);
+            ViewVertical.Children.Add(JornadaOwn);
 
             ViewOrizontal.Children.Add(ViewVertical);
 
